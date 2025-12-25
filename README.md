@@ -37,12 +37,6 @@ Source dataset:
 > hashexplaindata (2025) *Customer Churn Dataset* [online]. Available at:  
 > GitHub repository `hashexplaindata/e-commerce_customer_churn_analysis` 
 
-Save the CSV as, for example:
-
-- `data/customer_churn_data.csv`
-
-and update the file path in the notebook if needed.
-
 ## Methods
 
 1. **Preprocessing**
