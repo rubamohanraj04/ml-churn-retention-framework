@@ -28,8 +28,6 @@ The work supports the dissertation:
 - `reports/` – Dissertation PDF and any supporting technical documentation.
 - `figures/` – Exported plots (confusion matrix, feature importance, elbow plot, cluster profiles, risk distributions, etc.).
 
-(Directory names can be adapted to match your actual structure.)
-
 ## Data
 
 The project uses an e-commerce customer churn dataset with 5,630 customers and 20 attributes, including behavioural, transactional, experiential and demographic variables (e.g. `Tenure`, `CityTier`, `OrderCount`, `CouponUsed`, `HourSpendOnApp`, `SatisfactionScore`).
@@ -37,7 +35,7 @@ The project uses an e-commerce customer churn dataset with 5,630 customers and 2
 Source dataset:
 
 > hashexplaindata (2025) *Customer Churn Dataset* [online]. Available at:  
-> GitHub repository `hashexplaindata/e-commerce_customer_churn_analysis` (accessed: [insert access date]).
+> GitHub repository `hashexplaindata/e-commerce_customer_churn_analysis` 
 
 Save the CSV as, for example:
 
@@ -45,7 +43,7 @@ Save the CSV as, for example:
 
 and update the file path in the notebook if needed.
 
-## Methods (summary)
+## Methods
 
 1. **Preprocessing**
    - Numeric features: median imputation + standardisation.
@@ -70,8 +68,6 @@ and update the file path in the notebook if needed.
 - See the main notebook in `notebooks/` for step-by-step execution.
 
 ## Citation
-
-If you use this work in academic or professional contexts, please cite the dissertation and the original dataset:
 
 - Mohanraj, R. (2025) *Integrating Machine Learning with Customer Retention Strategies: A Risk-Based Approach to E-Commerce Churn Prediction*. MSc dissertation, University of Greenwich.
 - hashexplaindata (2025) *Customer Churn Dataset* [online]. GitHub: `hashexplaindata/e-commerce_customer_churn_analysis`.
